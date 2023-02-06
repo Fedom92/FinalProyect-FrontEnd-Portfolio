@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--"RESPONSIVE"-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--W3SCHOOLS BOOTSTRAP-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="cs/estilo.css" />
+    <title>Proyecto CV Propio</title>
+</head>
+
+<body>
+    <!--COMIENZO NAVBAR-->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"
+                    style="font-size: 18px; font-weight: bold; cursor: auto; color: white; text-align: center; margin-top: 2px;">Portfolio</a>
+            </div>
+            <div id="navbar-opciones-izquierda">
+                <ul class="nav navbar-nav">
+                    <li class="active" id="home"><a href="#"><i class="fa fa-fw fa-home"
+                                style="margin-right: 6px;"></i>Inicio</a>
+                    </li>
+
+                    <li class="active" id="home2" style="display: none;"><a href="#"><i class="fa fa-fw fa-home"
+                                style="margin-right: 6px;"></i>Home</a>
+                    </li>
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="redes">Redes Sociales
+                            <span class="caret"></span></a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="redes2"
+                            style="display: none;">Social Media
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://www.linkedin.com/in/federicodominguez92/" target="_blank"
+                                    rel="noopener noreferrer">LinkedIn<i class="fa fa-linkedin"
+                                        style="margin-left: 6px;"></i></a></li>
+                            <li><a href="https://github.com/Fedom92/" target="_blank" rel="noopener noreferrer">Github<i
+                                        class="fa fa-github" style="margin-left: 18px;"></i></a></li>
+                            <li><a href="pdf/CV FEDERICO E. DOMINGUEZ.pdf" target="_blank" rel="noopener noreferrer">CV
+                                    PDF<i class="fa-solid fa-file-pdf" style="margin-left: 12px;"></i></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                </ul>
+            </div>
+
+            <div>
+                <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right" style="margin-right: 7px">
+                        <button id="boton">
+                            <img src="https://cdn-icons-png.flaticon.com/512/555/555417.png" width="18" height="26"
+                                loading="lazy" style="margin-left: 8px">
+                            <li><a href="indexENG.html">ENG</a></li>
+                        </button>
+                    </ul>
+                    <!-- MODAL -->
+                    <button type="button" class="btn btn-secondary navbar-btn right" data-toggle="modal"
+                        data-target="#myModal"
+                        style="font-weight:bold; font-size: medium; margin-right: 10px;">Contacto</button>
+
+                    <div id="myModal" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Contacte conmigo a través de:</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p style="font-weight: bold;">Teléfono: +5491159532760</p>
+                                    <br>
+                                    <p style="font-weight: bold;">Correco Electrónico: fede92dominguez@gmail.com</p>
+                                    <a id="example-element" href="https://wa.me/5491159532760" target="_blank"
+                                        rel="noopener noreferrer" class="transition-all"
+                                        style="text-decoration: underline; color: black; font-size: 16px; font-family: 'Roboto', sans-serif; font-weight: bold; margin-left: -10px; margin-top: 5px;">
+                                        O hacé clik aquí
+                                    </a>
+                                </div>
+                                <br>
+                                <br>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- FIN MODAL -->
+
+                    <!--INTENTO DE SEARCH BAR DENTRO DE WEB, FALTARON CONOCIMIENTOS EN PHP
+                    <form class="navbar-form navbar-right" action="action.php" method="get">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Buscar...">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                    </form>
+                    -->
+                </ul>
+            </div>
+    </nav>
+    <!--FIN NAVBAR-->
+
+    <div class="container-fluid p-5 bg-primary text-white text-center" id="encabezado"
+        style="margin-top: -20px; padding-top: 10px; padding-bottom: 10px;">
+        <h1 style="font-size: 48px; font-weight: bold;">Federico DOMINGUEZ
+            <img src="Fotos/1623616792467.jpeg" alt="Representación Foto de Perfil del dueño del Portfolio."
+                style="height: 200px; width:200px; border-radius: 60px; float:right; display: inline; margin-top: -15px;" />
+        </h1>
+        
+        <h2 id="licenciado">LICENCIADO en Tecnologías de la Información y Comunicaciones (TICS).</H2>
+        <h2 id="analista">Analista de Sistemas</H2>
+
+        <h2 id="licenciado2" style="display: none;">DEGREE in Information and Communication Technologies (ICT).</H2>
+        <h2 id="analista2" style="display: none;">Systems Analyst</H2>
+    </div>
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+
+
+            <div class="col-sm-4" id="menuIzquierda">
+                <br>
+                <div id="sobreMi">
+                    <h3
+                        style="text-align: center; padding-left: 3px; color: cornflowerblue; font-weight: bold; border-bottom: 5px solid cornflowerblue;">
+                        Sobre
+                        mí
+                    </h3>
+                    <p>Actualmente, estoy en búsqueda de una oportunidad laboral, con el fin de
+                        conocimientos expandir y más experiencia en otros ámbitos.</p>
+
+                    <p>Me considero una persona proactiva, responsable, confiable, muy
+                        organizada, con excelentes habilidades interpersonales, con capacidad para trabajar en equipo,
+                        con
+                        amplia experiencia en grupos de trabajo y con plena autonomía funcional a la hora de desarrollar
+                        las
+                        tareas asignadas.</p>
+                </div>
+                <br>
+                <br>
+                <p
+                    style="color: cornflowerblue; border-style: groove; font-weight: bold; border-bottom: 1px solid cornflowerblue; margin-left: 70px; margin-right: 85px;">
+                </p>
+                <br>
+                <br>
+                <div id="conocimientosGrales">
+                    <h3
+                        style="text-align: center; padding-left: 3px; color: cornflowerblue; font-weight: bold; border-bottom: 5px solid cornflowerblue; ">
+                        Conocimientos Generales
+                    </h3>
+                    <h5 style="font-size: 15px; font-family: 'Roboto', sans-serif;
+                    ">OFFICE,GDE,SADE,</h5>
+                    <h5 style="font-size: 15px;">POO,POLIMORFISMO,HERENCIA,TADs,</h5>
+                    <h5 style="font-size: 15px;">Google Cloud, Google Workspace,</h5>
+                    <h5 style="font-size: 15px;">AdobeXD, Diagramas (UML), draw.io,</h5>
+                    <h5 style="font-size: 15px;">Bizagi BPM, Figma, Git, Github.</h5>
+                </div>
+                <br>
+                <br>
+                <p
+                    style="color: cornflowerblue; border-style: groove; font-weight: bold; border-bottom: 1px solid cornflowerblue; margin-left: 70px; margin-right: 85px;">
+                </p>
+                <br>
+                <br>
+                <div id="idiomas">
+                    <h3 style="text-align: center; padding-left: 3px; color: cornflowerblue; font-weight: bold; border-bottom: 5px solid cornflowerblue;"">
+                        Idiomas
+                    </h3>
+                    <p
+                        style=" font-size: 16px; font-family: 'Roboto' , sans-serif; text-align: center;font-weight:
+                        normal;">
+                        <span id="example-element" class="transition-all"
+                            style="text-decoration: underline; font-size: 16px; font-family: 'Roboto', sans-serif; font-weight: bold; text-decoration: underline black 1px;">
+                            INGLÉS:</span>
+                        AVANZADO.
+                        </p>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+
+            <!--CONTENIDO MAIN-->
+            <!--CONTENIDO MAIN-->
+            <!--CONTENIDO MAIN-->
+
+            <div class="col-sm-8" id="contenidoMain" style="margin-top: 5px; margin-left: 20px;">
+                <br>
+                <div id="experienciaLaboral">
+                    <h3
+                        style="color: cornflowerblue; font-weight: bold; border-bottom: 5px solid cornflowerblue; margin-right: 60px;">
+                        Experiencia Laboral</h3>
+                    <h4 style="font-weight: bold">Ministerio de Seguridad de la Nacion - Argentina</h4>
+                    <h5>Puesto administrativo (2015-2016)</h5>
+                    <h5>Technical Supporter (2017-2018)</h5>
+                    <h5>Analista QA(2018-2019)</h5>
+                    <h5>Project Manager (2020-ACTUALIDAD)</h5>
+                    <p style="margin-right: 60px;">Actualmente me encuentro junto con mi equipo de trabajo
+                        afrontando
+                        los
+                        desafíos diarios que se le presenten a la organización. A lo largo de mi carrera he cumplido
+                        funciones administrativas como técnicas. Ya sea Distribución Regional de equipos
+                        informáticos,
+                        Administrador de Bases de Datos, Informes de Calidad,, mantenimiento de servidores,
+                        Expansión
+                        nivel
+                        de Sistemas a Nacional VPN (incluyendo capacitación/instalación/soporte ya sea presencial y
+                        vía
+                        remoto).</p>
+                    <br>
+                    <h4 style="font-weight: bold">EXPERIENCIA EN DISTINTOS PROYECTOS DESARROLLADOS FREELANCE</h4>
+                    <p style="margin-right: 60px;">Webapps, Apps dependiendo requerimientos de clientes.</p>
+                </div>
+                <br>
+                <div id="programacion">
+                    <h3
+                        style="color: cornflowerblue; font-weight: bold; border-bottom: 5px solid cornflowerblue; margin-right: 60px;">
+                        Programación</h3>
+                    <p>JAVA, HTML, CSS, JS, C#, React, ReactNative, PYTHON, R, jQuery, Ruby, </p>
+
+                    <p>PSEINT, Android Studio, VBA, GoogleAppScript, SQL, MongoDB, Firebase.</p>
+                </div>
+                <br>
+                <div id="reconocimientoEspecial">
+                    <h3
+                        style="color: cornflowerblue; font-weight: bold; border-bottom: 5px solid cornflowerblue; margin-right: 60px;">
+                        Reconocimiento Especial</h3>
+                    <p style="font-weight: bold; font-size: 16px;">Seminario BigData para Países Latinoamericanos 2018 -
+                        CHINA</p>
+
+                    <p style="text-decoration: underline;">Seleccionado como representante de Interpol Argentina para
+                        participar del Seminario de 15 días que se realizó en Beijing-Shangai, China.</p>
+                </div>
+                <br>
+                <div id="certificacion">
+                    <h3
+                        style="color: cornflowerblue; font-weight: bold; border-bottom: 5px solid cornflowerblue; margin-right: 60px;">
+                        Certificación</h3>
+                    <p style="font-weight: bold; font-size: 16px;">Seminario BigData para Países Latinoamericanos 2018 -
+                        CHINA</p>
+
+                    <p>Plan nacional, impulsado por la Subsecretaría de Economía del Conocimiento de la Nación y la
+                        Cámara de la Industria Argentina del Software (CESSI).</p>
+                    <p>Cursos Aprobados #SEPROGRAMAR y #YOPROGRAMO</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <h2>SOBRE EL PORTFOLIO</h2>
+                <p>El presente fue creado a raíz de la entrega del Proyecto Final para el Curso Introductorio Ticmas
+                    FrontEnd.
+                    Perteneciente al programa "Argentina Programa 4.0" programa nacional y federal que tiene como
+                    objetivo capacitar a personas en lenguajes y conocimientos sobre programación.
+                    El programa es impulsado por el Ministerio de Economía de la Nación con apoyo de un consejo
+                    consultivo especializado.
+                </p>
+                
+                <div class="red-social">
+                    <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa"
+                        class="fa fa-globe"></a>
+                    <a href="http://www.instagram.com/argentinaprograma4.0" class="fa fa-instagram"></a>
+                    <a href="https://twitter.com/econocimientoar" class="fa fa-twitter"></a>
+                    <button class = "like__btn">
+                        <span id="icon"><i class="far fa-thumbs-up"></i></span>
+                        <span id="count">0</span> Like si te gustó
+                    </button>
+                </div>
+            </div>
+            <div class="box">
+
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023 <b><a href="mailto:fede92dominguez@gmail.com" target="_blank" rel="noopener noreferrer"
+                        style="text-decoration: none; color: white;">Autor Federico DOMINGUEZ</b></a> - Todos los
+                Derechos Reservados.</small>
+        </div>
+    </footer>
+
+
+    <script src="js/funciones.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/0635b91197.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

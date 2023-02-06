@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--"RESPONSIVE"-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--W3SCHOOLS BOOTSTRAP-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="cs/estilo.css" />
+    <title>Proyecto CV Propio</title>
+</head>
+
+<body>
+    <!--COMIENZO NAVBAR-->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"
+                    style="font-size: 18px; font-weight: bold; cursor: auto; color: white; text-align: center; margin-top: 2px;">Portfolio</a>
+            </div>
+            <div id="navbar-opciones-izquierda">
+                <ul class="nav navbar-nav">
+                    <li class="active" id="home2"><a href="#"><i class="fa fa-fw fa-home"
+                                style="margin-right: 6px;"></i>Home</a>
+                    </li>
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="redes2">Social Media
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://www.linkedin.com/in/federicodominguez92/" target="_blank"
+                                    rel="noopener noreferrer">LinkedIn<i class="fa fa-linkedin"
+                                        style="margin-left: 6px;"></i></a></li>
+                            <li><a href="https://github.com/Fedom92/" target="_blank" rel="noopener noreferrer">Github<i
+                                        class="fa fa-github" style="margin-left: 18px;"></i></a></li>
+                            <li><a href="pdf/CV FEDERICO E. DOMINGUEZ.pdf" target="_blank" rel="noopener noreferrer">CV
+                                    PDF<i class="fa-solid fa-file-pdf" style="margin-left: 12px;"></i></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                </ul>
+            </div>
+
+            <div>
+                <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right" style="margin-right: 7px">
+                        <button id="boton">
+                            <img src="https://cdn-icons-png.flaticon.com/512/555/555635.png" width="18" height="26"
+                                loading="lazy" style="margin-left: 8px">
+                            <li><a href="index.html">ESP</a></li>
+                        </button>
+                    </ul>
+                    <!-- MODAL -->
+                    <button type="button" class="btn btn-secondary navbar-btn right" data-toggle="modal"
+                        data-target="#myModal"
+                        style="font-weight:bold; font-size: medium; margin-right: 10px;">Contact</button>
+
+                    <div id="myModal" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Contact with me through:</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p style="font-weight: bold;">Phone: +5491159532760</p>
+                                    <br>
+                                    <p style="font-weight: bold;">E-mail: fede92dominguez@gmail.com</p>
+                                    <a id="example-element" href="https://wa.me/5491159532760" target="_blank"
+                                        rel="noopener noreferrer" class="transition-all"
+                                        style="text-decoration: underline; color: black; font-size: 16px; font-family: 'Roboto', sans-serif; font-weight: bold; margin-left: -10px; margin-top: 5px;">
+                                        Or you can click HERE
+                                    </a>
+                                </div>
+                                <br>
+                                <br>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- FIN MODAL -->
+
+                    <!--INTENTO DE SEARCH BAR DENTRO DE WEB, FALTARON CONOCIMIENTOS EN PHP
+                    <form class="navbar-form navbar-right" action="action.php" method="get">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Buscar...">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                    </form>
+                    -->
+                </ul>
+            </div>
+    </nav>
+    <!--FIN NAVBAR-->
+
+    <div class="container-fluid p-5 bg-primary text-white text-center" id="encabezado"
+        style="margin-top: -20px; padding-top: 10px; padding-bottom: 10px;">
+        <h1 style="font-size: 48px; font-weight: bold;">Federico DOMINGUEZ
+            <img src="Fotos/1623616792467.jpeg" alt="Representación Foto de Perfil del dueño del Portfolio."
+                style="height: 200px; width:200px; border-radius: 60px; float:right; display: inline; margin-top: -15px;" />
+        </h1>
+        <h2 id="pais">Buenos Aires, ARGENTINA.</H2>
+        <h2 id="licenciado">DEGREE in Information and Communication Technologies (ICT).</H2>
+        <h2 id="analista">Systems Analyst</H2>
+    </div>
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+
+
+            <div class="col-sm-4" id="menuIzquierda">
+                <br>
+                <div id="sobreMi">
+                    <h3
+                        style="text-align: center; padding-left: 3px; color: cornflowerblue; font-weight: bold; border-bottom: 5px solid cornflowerblue;">
+                        About me
+                    </h3>
+                    <p>Currently, I am looking for a job opportunity, in order to expand my knowledge and gain more
+                        experience in other fields.</p>
+
+                    <p>I consider myself a proactive, responsible, reliable, highly organized person, with excellent
+                        interpersonal skills, with the ability to work in a team, with extensive experience in work
+                        groups and with full functional autonomy when carrying out the assigned
+                        tasks.</p>
+                </div>
+                <br>
+                <br>
+                <p
+                    style="color: cornflowerblue; border-style: groove; font-weight: bold; border-bottom: 1px solid cornflowerblue; margin-left: 70px; margin-right: 85px;">
+                </p>
+                <br>
+                <br>
+                <div id="conocimientosGrales">
+                    <h3
+                        style="text-align: center; padding-left: 3px; color: cornflowerblue; font-weight: bold; border-bottom: 5px solid cornflowerblue; ">
+                        General Knowledge
+                    </h3>
+                    <h5 style="font-size: 15px; font-family: 'Roboto', sans-serif;
+                    ">OFFICE,GDE,SADE,</h5>
+                    <h5 style="font-size: 15px;">POO,POLIYORPHISM,INHERITANCE,TADs,</h5>
+                    <h5 style="font-size: 15px;">Google Cloud, Google Workspace,</h5>
+                    <h5 style="font-size: 15px;">AdobeXD, Diagrams (UML), draw.io,</h5>
+                    <h5 style="font-size: 15px;">Bizagi BPM, Figma, Git, Github.</h5>
+                </div>
+                <br>
+                <br>
+                <p
+                    style="color: cornflowerblue; border-style: groove; font-weight: bold; border-bottom: 1px solid cornflowerblue; margin-left: 70px; margin-right: 85px;">
+                </p>
+                <br>
+                <br>
+                <div id="idiomas">
+                    <h3 style="text-align: center; padding-left: 3px; color: cornflowerblue; font-weight: bold; border-bottom: 5px solid cornflowerblue;"">
+                        Languages
+                    </h3>
+                    <p
+                        style=" font-size: 16px; font-family: 'Roboto' , sans-serif; text-align: center;font-weight:
+                        normal;">
+                        <span id="example-element" class="transition-all"
+                            style="text-decoration: underline; font-size: 16px; font-family: 'Roboto', sans-serif; font-weight: bold; text-decoration: underline black 1px;">
+                            ENGLISH:</span>
+                        ADVANCED (C1).
+                        </p>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+
+            <!--CONTENIDO MAIN-->
+            <!--CONTENIDO MAIN-->
+            <!--CONTENIDO MAIN-->
+
+            <div class="col-sm-8" id="contenidoMain" style="margin-top: 5px; margin-left: 20px;">
+                <br>
+                <div id="experienciaLaboral">
+                    <h3
+                        style="color: cornflowerblue; font-weight: bold; border-bottom: 5px solid cornflowerblue; margin-right: 60px;">
+                        Work Experiencie</h3>
+                    <h4 style="font-weight: bold">Ministry of National Security - Argentina</h4>
+                    <h5>Administrative (2015-2016)</h5>
+                    <h5>Technical Supporter (2017-2018)</h5>
+                    <h5>QA Analist (2018-2019)</h5>
+                    <h5>Project Manager (2020-ACTUALIDAD)</h5>
+                    <p style="margin-right: 60px;">Currently I am together with my workteam facing the daily challenges
+                        that are presented to the organization. Throughout my career I have fulfilled administrative and
+                        technical functions. Whether it is Regional Distribution of computer equipment, Database
+                        Administrator, Quality Reports, server maintenance, Nationwide Expansion of VPN Systems
+                        (including training/ installation/support, in person or remote)..</p>
+                    <br>
+                    <h4 style="font-weight: bold">EXPERIENCE IN DIFFERENT FREELANCE PROJECTS</h4>
+                    <p style="margin-right: 60px;">Different Web apps/Apps depending on customer requirements.</p>
+                </div>
+                <br>
+                <div id="programacion">
+                    <h3
+                        style="color: cornflowerblue; font-weight: bold; border-bottom: 5px solid cornflowerblue; margin-right: 60px;">
+                        Programming</h3>
+                    <p>JAVA, HTML, CSS, JS, C#, React, ReactNative, PYTHON, R, jQuery, Ruby, </p>
+
+                    <p>PSEINT, Android Studio, VBA, GoogleAppScript, SQL, MongoDB, Firebase.</p>
+                </div>
+                <br>
+                <div id="reconocimientoEspecial">
+                    <h3
+                        style="color: cornflowerblue; font-weight: bold; border-bottom: 5px solid cornflowerblue; margin-right: 60px;">
+                        Special Recognition</h3>
+                    <p style="font-weight: bold; font-size: 16px;">BigData Seminar for Latin American Countries 2018 -
+                        CHINA</p>
+
+                    <p style="text-decoration: underline;">Selected as representative of Interpol Argentina to
+                        participate in the 15-day Seminar that was held in Beijing-Shanghai, China.</p>
+                </div>
+                <br>
+                <div id="certificacion">
+                    <h3
+                        style="color: cornflowerblue; font-weight: bold; border-bottom: 5px solid cornflowerblue; margin-right: 60px;">
+                        Certificación</h3>
+                    <p style="font-weight: bold; font-size: 16px;">Productive Development Ministry - Argentina Software
+                        Development Program</p>
+
+                    <p>National plan, promoted by the Undersecretary of Knowledge Economy of the Nation and the Chamber
+                        of the Argentine Software Industry (CESSI).</p>
+                    <p>Courses called #IKNOWPROGRAMMING y #IPROGRAM (2022)</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <h2>SOBRE EL PORTFOLIO</h2>
+                <p>This was created as a result of the Test-Final Project for the Ticmas Introductory Course
+                    FrontEnd.
+                    Belonging to the "Argentina Program 4.0", wich is a national and federal program that has as
+                    objective to train people in different languages ​​and knowledge about programming.
+                    This program is promoted by the Ministry of Economy of the Nation with the support of a council
+                    specialized consultant.
+                </p>
+                <div class="red-social">
+                    <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa"
+                        class="fa fa-globe"></a>
+                    <a href="http://www.instagram.com/argentinaprograma4.0" class="fa fa-instagram"></a>
+                    <a href="https://twitter.com/econocimientoar" class="fa fa-twitter"></a>
+                    <button class = "like__btn">
+                        <span id="icon"><i class="far fa-thumbs-up"></i></span>
+                        <span id="count">0</span> Like si te gustó
+                    </button>
+                </div>
+            </div>
+            <div class="box">
+
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023 <b><a href="mailto:fede92dominguez@gmail.com" target="_blank" rel="noopener noreferrer"
+                        style="text-decoration: none; color: white;">Author Federico DOMINGUEZ</b></a> - All rights
+                reserved.</small>
+        </div>
+    </footer>
+
+
+    <script src="js/funciones.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/0635b91197.js" crossorigin="anonymous"></script>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active2");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
